@@ -6,57 +6,45 @@ import Title from "../shared/Title.astro";
 
 ---
 
-<section id="services">
+<section id="services" class="py-16" style="background: radial-gradient(circle, rgba(181,196,244,.4) 0%, rgba(255,255,255,0) 70%);">
     <Container className="space-y-10 md:sapce-y-12">
         <div class="text-center max-w-3xl mx-auto space-y-4">
             <Title>
                 What we offer
             </Title>
-            <Paragraph>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <Paragraph className="text-gray-300 dark:text-gray-500">
+                Take control of your content and collaboration needs with our comprehensive suite of services! Whether you're looking to streamline your content creation process, enhance collaboration between team members, or both, we've got you covered.
             </Paragraph>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            <Service title="Social media marketing" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate">
+            <Service title="Storage for days" description="Introducing the ultimate cloud storage solution, designed to meet all your needs! Our service offers unbeatable security, with state-of-the-art encryption and access controls, to keep your data safe and secure. And with intuitive management tools, you'll be able to easily organize and access your files from anywhere, at any time.">
                 <span slot="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                    </svg> 
+                    <img src="/images/service-icons/storage.png" class="h-10 w-10" />
                 </span>
             </Service>
-            <Service title="Amazon affiliate marketing" description="Sunt, ipsam, necessitatibus sint fugit officia laboriosam minima ab ullam at magni et. Quaerat, sint!">
+            <Service title="All-In-One Analytics" description="Say goodbye to data fragmentation and hello to complete insights with our innovative analytics tool. Our platform seamlessly integrates all your data sources and provides you with a single, unified view of your analytics. No more jumping between multiple platforms or wasting time trying to collate data">
                 <span slot="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                    </svg> 
+                    <img src="/images/service-icons/analysis.png" class="h-10 w-10" />
                 </span>
             </Service>
-            <Service title="Email marketing" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate">
+            <Service title="Be on top with custom website" description="Maximize your online presence and simplify your navigation with the power of Reach! Our platform is the ultimate solution for streamlining your online content and driving traffic to your most important pages. Whether you're looking to promote your brand, showcase your products, or simply make it easier for your audience to find what they're looking for, Reach links has you covered.">
                 <span slot="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                    </svg> 
+                    <img src="/images/service-icons/web-design.png" class="h-10 w-10" />
                 </span>
             </Service>
-            <Service title="Social media marketing" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate">
+            <Service title="Get junk out of mail" description="Experience email management reimagined with our app. We streamline your inbox by sorting emails based on labels, presenting them in a stunning, user-friendly interface. Say goodbye to clutter and hello to organized simplicity. Whether it's work, personal, or subscriptions, our app elegantly brings it all together. Rediscover the joy of email with a beautifully intuitive design. Download now and elevate your email experience.">
                 <span slot="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                    </svg> 
+                    <img src="/images/service-icons/email.png" class="h-10 w-10" />
                 </span>
             </Service>
-            <Service title="Amazon affiliate marketing" description="Sunt, ipsam, necessitatibus sint fugit officia laboriosam minima ab ullam at magni et. Quaerat, sint!">
+            <Service title="Calendar management at it's best" description="ntroducing the ultimate all-in-one productivity app! Seamlessly integrate your calendar, email, and agile board for a streamlined and efficient workday. Manage your schedule, access your emails, and track your projects all in one place. Say goodbye to juggling multiple tools and hello to simplicity. Achieve your goals, meet deadlines, and stay on top of your inbox effortlessly. Take control of your work-life balance like never before. Experience the future of productivity ">
                 <span slot="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                    </svg> 
+                    <img src="/images/service-icons/calendar.png" class="h-10 w-10" />
                 </span>
             </Service>
-            <Service title="Email marketing" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate">
+            <Service title="Manage your shopify store" description="Elevate your Shopify business with our all-in-one SaaS solution! Our platform seamlessly integrates with your Shopify store, providing powerful tools to manage, analyze, and optimize your e-commerce operations. But that's not all - we take it a step further by integrating with your emails and calendar, ensuring you stay on top of every aspect of your business. Supercharge your Shopify experience, enhance productivity, and take your business to the next level.">
                 <span slot="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                    </svg> 
+                    <img src="/images/service-icons/shopify.png" class="h-10 w-10" />
                 </span>
             </Service>
         </div>
