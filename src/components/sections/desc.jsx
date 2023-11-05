@@ -12,15 +12,15 @@ export default function DescComponent() {
         }, 100)
     })
 return <section
-               className="rxelative mt-12 md:mt-16 p-[15%] mx-auto flex text-black dark:text-white items-center justify-between bg-contain border-y-[1px] border-0 dark:border-gray-700 "
+               className="rxelative mt-12 md:mt-16 md:h-auto h-screen md:p-[15%] p-[10%] mx-auto flex text-black dark:text-white items-center justify-between bg-contain border-y-[1px] border-0 dark:border-gray-700 md:flex-row flex-col"
                style={{ background: gradient }}
                id="desc"
        >
-           <div className="font-special text-5xl w-1/3">
+           <div className="font-special text-5xl md:w-1/3 w-full">
                With the <span className="text-[#40bf70]">Right Software,</span> Great Things <span
                    className="text-blue-500">Can Happen</span>
            </div>
-           <p className="w-1/2 leading-8">
+           <p className="md:w-1/2 w-full leading-8">
                Our platform helps you manage your entire workflow with ease and efficiency, giving you more time to focus on
                what really matters: creating amazing content.
 
