@@ -1,7 +1,7 @@
 FROM caddy:alpine
 LABEL authors="iresharma"
 
-RUN apk update && apk add --no-cache node js npm
+RUN apk update && apk add --no-cache nodejs npm
 
 WORKDIR /app
 
