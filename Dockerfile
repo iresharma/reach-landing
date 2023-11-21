@@ -15,4 +15,4 @@ RUN npm run build
 
 RUN cp - dist/* /srv/
 
-COPY ./Copyfile /etc/caddy/Caddyfile
+COPY ./Caddyfile /etc/caddy/Caddyfile
